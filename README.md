@@ -303,11 +303,13 @@ ORDER BY run_ts DESC;
 Actions: `SEC_ADD`, `SEC_REMOVE`, `ADD`, `REMOVE`, `REFRESH`, `UNMAPPED_VALUE`.
 Status: `DRY_RUN`, `APPLIED`, `FAILED` (with `error`), `SKIPPED`, `LOGGED`.
 
-![Audit table results](images/06-audit.png)
+<img width="617" height="394" alt="image" src="https://github.com/user-attachments/assets/5d1d933d-40fc-4d34-80c9-abb59e6a0a06" />
+
 
 **7. Schedule with a service principal.**
 
-![Pipeline Notebook activity with a service principal connection](images/07-pipeline.png)
+<img width="623" height="417" alt="image" src="https://github.com/user-attachments/assets/81a0a37e-6ce5-47cc-8326-91fc0e72f89d" />
+
 
 ## 8. Schedule it (and choose the run-as identity)
 
