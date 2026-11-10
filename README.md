@@ -269,23 +269,28 @@ Paste `rls_role_sync.py` into a Fabric notebook. Put the **Parameters** block in
 
 **1. Find the model's security settings.** **⋯ → Security** for members; **Open data model → Manage roles** for filters.
 
-![Workspace items and the semantic model menu](images/01-workspace.png)
+![Workspace items and the semantic model menu]<img width="614" height="339" alt="image" src="https://github.com/user-attachments/assets/2ce7e240-ea83-430b-982c-382dda09a776" />
+
 
 **2. Rule 1 on DimEmployee.**
 
-![Rule 1: manager hierarchy](images/02-rule-employee.png)
+![Rule 1: manager hierarchy]<img width="616" height="357" alt="image" src="https://github.com/user-attachments/assets/3d38c9b9-a9d5-4799-8ee2-a2d4b715c278" />
 
 **3. Rule 2 on DimProduct.**
 
-![Rule 2: entitled categories](images/03-rule-product.png)
+![Rule 2: entitled categories] <img width="621" height="361" alt="image" src="https://github.com/user-attachments/assets/3f076782-ce7b-4521-ae03-1b84d798bc94" />
+
+
 
 **4. Members are written for you.** eli was added on his first entitlement; farah was removed when her last one ended.
 
-![Sales Access members](images/04-role-members.png)
+![Sales Access members]<img width="620" height="370" alt="image" src="https://github.com/user-attachments/assets/2397dfb2-399e-4fa5-8e66-392b0343c5cf" />
+
 
 **5. Test as role + other user.** ben sees his team in Computers only: 47,000.
 
-![Testing as ben](images/05-test-as-other-user.png)
+![Testing as ben]<img width="622" height="338" alt="image" src="https://github.com/user-attachments/assets/90fd9082-de8a-43f4-b3af-00fe3d0883ac" />
+
 
 **6. Check the audit trail.**
 
